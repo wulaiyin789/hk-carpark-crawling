@@ -28,7 +28,7 @@ jobs:
           REQUEST_LIMIT: "6"
         run: |
           set -o xtrace
-          python ./parking.py
+          python src/parking.py
 
       - name: Archive crawling outputs
         uses: actions/upload-artifact@v4
