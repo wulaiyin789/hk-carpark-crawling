@@ -1,4 +1,4 @@
-# hk-parking-crawling (Python)
+# hk-parking-crawling (Typescript)
 Combine all the data resources into one JSON format, extracting only the data in every 5 minutes.
 
 ## Usage

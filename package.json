@@ -1,0 +1,22 @@
+{
+  "name": "hk-parking-crawling",
+  "version": "1.0.0",
+  "description": "Daily parking info/vacancy in HK",
+  "repository": "https://github.com/wulaiyin789/hk-parking-crawling",
+  "author": "Peter Wu",
+  "license": "GPL",
+  "private": false,
+  "scripts": {
+    "crawl": "tsx src/parking.ts",
+    "rollout": "yarn crawl && gh-pages -d dist -a"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "gh-pages": "^6.1.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
